@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  > div {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+}
+
+.code {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.selected {
+  border-bottom: 2px purple solid;
+}
+
+.selected-secondary {
+  border-bottom: 2px orange solid;
+}
+
+.error {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
