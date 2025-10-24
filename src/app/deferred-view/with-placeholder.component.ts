@@ -7,8 +7,8 @@ import { ImagesComponent } from './images.component';
   imports: [ImagesComponent],
   template: `@defer () {
     <app-images></app-images>
-    } @placeholder (minimum 5000ms) {
-    <p>Loading Images</p>
+    } @placeholder (minimum 2000ms) {
+    <p>Loading Images after 2 seconds</p>
     } `,
 })
 export class WithPlaceholderViewComponent {}

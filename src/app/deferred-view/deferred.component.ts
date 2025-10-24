@@ -6,8 +6,7 @@ import { ImagesComponent } from './images.component';
   standalone: true,
   imports: [ImagesComponent],
   template: `
-    <div style="height: 500px; background: yellow; ">Some other component</div>
-    @defer () {
+    @defer() {
     <app-images></app-images>
     }
   `,

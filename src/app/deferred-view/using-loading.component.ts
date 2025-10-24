@@ -8,8 +8,8 @@ import { ImagesComponent } from './images.component';
   template: `
     @defer () {
     <app-images></app-images>
-    } @loading (after 1s; minimum 500ms) {
-    <p>Loading Images</p>
+    } @loading (after 15s; minimum 10s) {
+    <p>Loading Images after 15 seconds with min 10s</p>
     }
   `,
 })
